@@ -3,7 +3,7 @@ const usePromptOne = () => {
   let userInput = prompt("Insert a question if you are not scared to know your destiny");
   console.log(userInput);
   h2.append(userInput);
-  setTimeout(function() {document.getElementById('question').innerHTML='';},5000);
+  setTimeout(function() {document.getElementById('question').innerHTML='';},7000);
   document.getElementById("question").innerText=random;
 };
 function GetAnswer()
